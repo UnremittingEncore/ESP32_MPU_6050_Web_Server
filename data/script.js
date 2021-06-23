@@ -18,7 +18,7 @@ function parentHeight(elem) {
 
 function init3D(){
   scene = new THREE.Scene();
-  scene.background = new THREE.Color(0xffffff);
+  scene.background = new THREE.Color(0x000000);
 
   camera = new THREE.PerspectiveCamera(75, parentWidth(document.getElementById("3Dcube")) / parentHeight(document.getElementById("3Dcube")), 0.1, 1000);
 
@@ -32,12 +32,12 @@ function init3D(){
 
   // Materials of each face
   var cubeMaterials = [
-    new THREE.MeshBasicMaterial({color:0x03045e}),
-    new THREE.MeshBasicMaterial({color:0x023e8a}),
-    new THREE.MeshBasicMaterial({color:0x0077b6}),
-    new THREE.MeshBasicMaterial({color:0x03045e}),
-    new THREE.MeshBasicMaterial({color:0x023e8a}),
-    new THREE.MeshBasicMaterial({color:0x0077b6}),
+    new THREE.MeshBasicMaterial({color:0x008080}),
+    new THREE.MeshBasicMaterial({color:0x008080}),
+    new THREE.MeshBasicMaterial({color:0x008080}),
+    new THREE.MeshBasicMaterial({color:0x008080}),
+    new THREE.MeshBasicMaterial({color:0x008080}),
+    new THREE.MeshBasicMaterial({color:0x008080}),
   ];
 
   const material = new THREE.MeshFaceMaterial(cubeMaterials);

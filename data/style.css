@@ -7,9 +7,10 @@
 */
 
 html {
-  font-family: Arial;
+  font-family: Courier New;
   display: inline-block;
   text-align: center;
+  background-color: black
 }
 p {
   font-size: 1.2rem;
@@ -19,40 +20,46 @@ body {
 }
 .topnav {
   overflow: hidden;
-  background-color: #003366;
-  color: #FFD43B;
-  font-size: 1rem;
+  background-color: teal;
+  color: lightcyan;
+  font-size: medium;
+  border-radius: 3px;
 }
 .content {
   padding: 20px;
 }
 .card {
-  background-color: white;
-  box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5);
+  background-color: darkcyan;
+    border-radius: 10px;
+/*  box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5);*/
 }
 .card-title {
-  color:#003366;
+  color:lightcyan;
   font-weight: bold;
 }
 .cards {
-  max-width: 800px;
+  max-width: 1000px;
+  color:lightcyan;
   margin: 0 auto;
   display: grid; grid-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 .reading {
+  color:lightcyan;
   font-size: 1.2rem;
 }
 .cube-content{
-  width: 100%;
-  background-color: white;
+  width: 90%;
+  background-color: black;
   height: 300px; margin: auto;
   padding-top:2%;
+  color: aqua;
 }
 #reset{
   border: none;
-  color: #FEFCFB;
-  background-color: #003366;
+  color: teal;
+  font-family: Courier New;
+  background-color: lightcyan;
   padding: 10px;
   text-align: center;
   display: inline-block;
@@ -61,8 +68,9 @@ body {
 }
 #resetX, #resetY, #resetZ{
   border: none;
-  color: #FEFCFB;
-  background-color: #003366;
+  color: teal;
+  font-family: Courier New;
+  background-color: lightcyan;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
