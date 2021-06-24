@@ -10,7 +10,7 @@
 - We use Server-Sent Events to update all the readings.
 - The 3D object is created using a JavaScript library called [three.js](https://threejs.org).
 
-## Update Network Credentials
+## Update Network Credentials (in the Arduino sketch)
 ```
 // Replace with your network credentials
 const char* ssid = "REPLACE_WITH_YOUR_SSID";
