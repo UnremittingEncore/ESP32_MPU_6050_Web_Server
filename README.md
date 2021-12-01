@@ -2,6 +2,8 @@
  Building MOCAP sensors.
  
  Project built upon by using this link https://RandomNerdTutorials.com/esp32-mpu-6050-web-server/
+ 
+ Updated code with more calibration using filters https://github.com/UnremittingEncore/ESP_MPU6050_Calibration
 
 ## Project Overview
 - Gyroscope values of the X, Y an Z axis are displayed on the Web Server (Updated every 10ms).
